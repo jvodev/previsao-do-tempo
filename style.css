@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(https://images.unsplash.com/photo-1550686041-366ad85a1355?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80);
+}
+
+.caixa-maior {
+    background: black;
+    opacity: 0.79;
+    border-radius: 25px;
+    padding: 30px;
+    border-radius: 25px;
+    width: 95%;
+    max-width: 828px;
+}
+
+.input-city {
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 20px;
+    font-size: 20px;
+    background-color: #7c7c7c2b;
+    color: #ffffff;
+    width: calc(100% - 80px);
+}
+
+.search-button {
+    border: none;
+    outline: none;
+    padding: 10px;
+    border: 50px;
+    background-color: #7c7c7c2b;
+    cursor: pointer;
+    float: right;
+}
+
+.img-search {
+    width: 22px;
+}
+
+.cloud-icon {
+    height: 50px;
+    width: 100px;
+}
+
+.city {
+    padding-top: 15px;
+    color: #ffffff;
+    font-size: 22px;
+    font-weight: 300;
+}
+
+.temp {
+    color: #ffffff;
+    font-size: 20px;
+    margin-top: 20px;
+    padding-bottom: 15px;
+}
+
+.could {
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 300;
+    margin-top: 20px;
+    margin-left: 20px;
+    text-transform: capitalize;
+}
+
+.caixa-menor {
+    display: flex;
+    align-items: center;
+}
+
+.umidade {
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 300;
+    margin-top: 20px;
+}
